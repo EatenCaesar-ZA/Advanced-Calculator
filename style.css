@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+    background-color: #000000;
+    font-family: 'Orbitron', sans-serif;
+    color: #00ff00; /* Neon green text */
+    text-align: center;
+}
+
+table {
+    border: 3px solid #00ffff; /* Neon blue outline */
+    margin: auto;
+    background-color: #0f0f23; /* Dark futuristic blue */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #00ffff, 0px 0px 40px #00ff00; /* Neon glow */
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    font-size: 24px;
+    text-align: right;
+    background-color: #00ff00; /* Bright neon green */
+    border: none;
+    color: #000;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    background-color: #00ffff; /* Neon blue background */
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    color: #001f3f; /* Dark navy blue digits */
+    font-weight: bold;
+}
+
+td:hover {
+    background-color: #00ff00; /* Neon green glow on hover */
+    color: #000000; /* Digits turn black on hover */
+    box-shadow: 0px 0px 10px #00ff00;
+}
